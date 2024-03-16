@@ -82,10 +82,11 @@ DATABASES = {
         'NAME': 'reservations',
         'HOST' : '127.0.0.1',
         'PORT' : '3306',
-        'USER' : 'user123',
-        'PASSWORD' : 'root@123',
+        #'USER' : 'username',
+        #'PASSWORD' : 'password',
     }
 }
+#'user123'pass:root@123
 
 # The settings for media files have been updated for the Graded assessment
 MEDIA_URL = '/media/'
